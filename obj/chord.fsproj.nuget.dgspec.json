@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\haswa\\OneDrive\\Desktop\\chord\\chord\\chord.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\haswa\\OneDrive\\Desktop\\chord\\chord\\chord.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\haswa\\OneDrive\\Desktop\\chord\\chord\\chord.fsproj",
+        "projectName": "chord",
+        "projectPath": "C:\\Users\\haswa\\OneDrive\\Desktop\\chord\\chord\\chord.fsproj",
+        "packagesPath": "C:\\Users\\haswa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haswa\\OneDrive\\Desktop\\chord\\chord\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haswa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.401\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.5.13, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.5.13, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.400, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
